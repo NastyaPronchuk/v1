@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani|Raleway&display=swap');
+
+:root {
+    font-family: "Raleway", sans-serif;
+    --main-color: black;
+    --accent-color: grey;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, h2, h3, p, div, nav, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
+header nav .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    background-image: url(../img/sneaker-head.jpg);
+
+}
+
+header nav .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+
+}
+
+header nav .menu a:hover {
+    border: 1px solid var(--accent-color);
+}
+
+@media (min-width: 320px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    header .menu {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/sneaker-head.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 30px ;
+    min-height: 500px;
+    padding-top: 80px;
+}
+
+header .banner h1 {
+    font-family: "Rajdhani", cursive;
+    font-size: 2rem;
+    color:black;
+    margin-top: 54px;
+    font-weight: bold;
+}
+
+ #about {
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+main div .first {
+    display: flex;
+    justify-content: center;
+}
+
+main div .page-one {
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
