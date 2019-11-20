@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani|Raleway&display=swap');
 
+
 :root {
     font-family: "Raleway", sans-serif;
     --main-color: black;
     --accent-color: grey;
     scroll-behavior: smooth;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
 }
 
 body {
@@ -87,4 +100,3 @@ main div .page-one {
     display: flex;
     flex-direction: column;
 }
-
