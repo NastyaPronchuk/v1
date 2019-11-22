@@ -70,12 +70,14 @@ header .banner{
     background-image:url(../img/sneaker-head.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 550px;
+    min-height: 600px;
 }
 
 main .about-text-one {
-      font-family: 'Raleway', bold;
-      margin-top: 10px;
+     
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Raleway', bold;
       
 
 }
@@ -83,6 +85,7 @@ main #about {
     text-transform: uppercase;
     text-align: center;
     background-image:url(../img/sneaker-head.jpg);
+    margin-top: 50px;
 }
 
 main .about-video {
@@ -95,6 +98,7 @@ main .offer {
     text-align: center;
     text-decoration: underline solid ;
     font-size: 30px;
+    margin-top: 40px;
 
 }
 
@@ -116,10 +120,16 @@ main .shop-list article img {
     margin: 0; 
 }
 
-main .shop-list article buttons {
+main .shop-list article .buttons {
     display: flex;
     justify-content: space-around;
     margin-top: 10px ;
+}
+
+main .shop-list article h4 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
 }
 
 @media (min-width: 510px) {
@@ -173,11 +183,16 @@ main .style-photo {
     margin-top: 30px;
 }
 
-main .style-info-button {
+main .style-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
 }    
+
+footer .contacts-text {
+    text-align: center;
+}
+
 
  footer #contacts {
     text-transform: uppercase;
@@ -185,20 +200,76 @@ main .style-info-button {
     background-image:url(../img/sneaker-head.jpg);
     margin-top: 50px;
 }    
-    
-   footer #final-form {
-	width: 290px;
-	background: #b5b5bb;
-  	border: 1px solid #CAD8DE;
-	border-radius: 4px;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
-	font: 14px/18px Arial, Tahoma, sans-serif;
-	color: #444;
+
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
 }
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+
+.contact_form h2 {
+	margin:0;
+	display: inline;
 }
 
-    footer .form-button {
-    margin-left:19%;
-    margin-top: 10px;
-}    
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact_form textarea {
+    padding:8px; width:300px;
+}
+.contact_form button {
+    margin-left:156px;
+}
 
+	.contact_form input, .contact_form textarea { 
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		padding-right:30px;
+	}
+	.contact_form input:focus, .contact_form textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+	}
+
+button.submit {
+    font-family: 'Rajdhani', bold;
+	background-color: rgba(0, 0, 255, 0.726);
+	background: linear-gradient(top,rgba(0, 0, 255, 0.726), rgba(0, 0, 255, 0.726));
+	border: 1px solid rgba(0, 0, 255, 0.726);
+	border-bottom: 1px solid black;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 grey;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0, 0, 255, 0.726);
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+button.submit:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+}
