@@ -6,6 +6,8 @@
     --main-color: black;
     --accent-color: #C0C0C0;
     scroll-behavior: smooth;
+     background-color:#e2f0e1;
+     width: 100%;
 }
 
 body {
@@ -74,6 +76,7 @@ header .banner{
 main .about-text-one {
       font-family: 'Raleway', bold;
       margin-top: 10px;
+      
 
 }
 main #about {
@@ -116,6 +119,7 @@ main .shop-list article img {
 main .shop-list article buttons {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px ;
 }
 
 @media (min-width: 510px) {
@@ -174,3 +178,27 @@ main .style-info-button {
     justify-content: space-around;
     margin-top: 10px;
 }    
+
+ footer #contacts {
+    text-transform: uppercase;
+    text-align: center;
+    background-image:url(../img/sneaker-head.jpg);
+    margin-top: 50px;
+}    
+    
+   footer #final-form {
+	width: 290px;
+	background: #b5b5bb;
+  	border: 1px solid #CAD8DE;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+	font: 14px/18px Arial, Tahoma, sans-serif;
+	color: #444;
+}
+}
+
+    footer .form-button {
+    margin-left:19%;
+    margin-top: 10px;
+}    
+
