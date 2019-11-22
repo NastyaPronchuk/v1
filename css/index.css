@@ -55,6 +55,11 @@ header nav .menu a:hover {
     border: 2px solid var(--accent-color);
 }
 
+header nav .nav-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media (min-width 500px) {
     header nav {
         display: flex;
@@ -98,6 +103,7 @@ main .offer {
     text-align: center;
     text-decoration: underline solid ;
     font-size: 30px;
+  
 
 }
 
@@ -112,39 +118,11 @@ main #shop {
     margin-top: 50px;
 }    
 
-main .shop-list article img {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0; 
-}
-
-main .shop-list article .buttons {
+main .shop-list {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px ;
+    width: 100%;
 }
-
-main .shop-list article h4 {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 15px;
-}
-
-@media (min-width: 510px) {
-    main .shop-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-    }
-}
-
-@media (min-width: 600px) {
-    main .shop-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
 main #style {
     text-transform: uppercase;
     text-align: center;

@@ -3,21 +3,21 @@
         "id": "1",
         "title": "Puma RS-0 Tracks Man;s",
         "image": "puma.jpg",
-        "description": "Welcome to the RS revolution. The innovative running tech makes a comeback from the '80s for today's chunky runner trend. Explore classic silhouettes like the RS-0 and RS-1 or step into the future with all-new versions of the RS-X and RS 9.8. Whatever your style, find an RS for every occasion.",
+        "description": "Welcome to the RS revolution. The innovative running tech makes a comeback from the '80s for today's chunky runner trend. Explore classic silhouettes like the RS-0 and RS-1 or step into the future with all-new versions of the RS-X and RS 9.8. Whatever your style, find an RS for every occasion. For everyday use.",
         "price": 120.00
     },
     {
         "id": "2",
         "title": "Vans Old Skool Canvas Man's",
         "image": "vans.jpg",
-        "description": "The Old Skool, the Vans classic skate shoe and first to bare the iconic sidestripe, is a low top lace-up featuring sturdy canvas and suede uppers, re-enforced toecaps to withstand repeated wear, padded collars for support and flexibility, and signature rubber waffle outsoles in Shade Grey Prune.",
+        "description": "The Old Skool, the Vans classic skate shoe and first to bare the iconic sidestripe, is a low top lace-up featuring sturdy canvas and suede uppers, re-enforced toecaps to withstand repeated wear, padded collars for support and flexibility, and signature rubber waffle outsoles in Shade Grey Prune. Perfect choise for you, be sure.",
         "price": 300.00
     },
     {
         "id": "3",
         "title": "Puma Thunder Spectra Man's",
         "image": "pna.jpg",
-        "description": "Inspired by '90s Cell System running silhouettes and the PUMA x McQueen collaboration, the style is a reimagined pair of kicks with a bulky, chunky, unapologetic look and feel. The exaggerated retro tooling, the blown-up proportions and the loud color blocking reserve a spot for the Thunder on the international runways.",
+        "description": "Inspired by '90s Cell System running silhouettes and the PUMA x McQueen collaboration, the style is a reimagined pair of kicks with a bulky, unapologetic look and feel. The exaggerated retro tooling, the blown-up proportions and the loud color blocking reserve a spot for the Thunder on the international runways.",
         "price": 150.00
     }
 ]
