@@ -4,20 +4,8 @@
 :root {
     font-family: "Raleway", sans-serif;
     --main-color: black;
-    --accent-color: grey;
+    --accent-color: #C0C0C0;
     scroll-behavior: smooth;
-}
-.mobile {
-  display: none;
-}
-
-@media (max-width: 500px) {
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
-  }
 }
 
 body {
@@ -30,73 +18,159 @@ h1, h2, h3, p, div, nav, header, footer {
     padding: 0;
 }
 
+header .logo {
+    font-family: 'Raleway', bold;
+    font-size: 20px;
+    text-align: start;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-right: 5px;
+    text-decoration: underline solid ;
+}
+
+
 header nav .menu {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
-    background-image: url(../img/sneaker-head.jpg);
+    background-image:url(../img/sneaker-head.jpg);
+    
 
 }
 
 header nav .menu a {
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
     color: var(--main-color);
-    border: 1px solid transparent;
-    padding: 5px;
+    border: 2px solid transparent;
+    padding: 4px;
 
 }
 
 header nav .menu a:hover {
-    border: 1px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
 }
 
-@media (min-width: 320px) {
+@media (min-width 500px) {
     header nav {
         display: flex;
-        align-items: center;
-    }
-
-    header .menu {
-        flex: 1;
+        
     }
 }
 
-header .banner {
-    background-image: url(../img/sneaker-head.jpg);
+header .menu {
+    flex: 1;
+}
+
+header .banner{
+    background-image:url(../img/sneaker-head.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-right: 30px ;
-    min-height: 500px;
-    padding-top: 80px;
+    min-height: 550px;
 }
 
-header .banner h1 {
-    font-family: "Rajdhani", cursive;
-    font-size: 2rem;
-    color:black;
-    margin-top: 54px;
-    font-weight: bold;
+main .about-text-one {
+      font-family: 'Raleway', bold;
+      margin-top: 10px;
+
+}
+main #about {
+    text-transform: uppercase;
+    text-align: center;
+    background-image:url(../img/sneaker-head.jpg);
 }
 
- #about {
-     display: flex;
-     justify-content: center;
-     margin-top: 30px;
- }
-
-main div .first {
+main .about-video {
     display: flex;
     justify-content: center;
+    
 }
 
-main div .page-one {
-    display: flex;
-    flex-direction: column;
+main .offer {
+    text-align: center;
+    text-decoration: underline solid ;
+    font-size: 30px;
+
 }
+
+main .page-one-list {
+    font-size: 22px;
+}
+
+main #shop {
+    text-transform: uppercase;
+    text-align: center;
+    background-image:url(../img/sneaker-head.jpg);
+    margin-top: 50px;
+}    
+
+main .shop-list article img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+main .shop-list article buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 510px) {
+    main .shop-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    main .shop-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+main #style {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    background-image:url(../img/sneaker-head.jpg);
+}    
+
+main .style-photo article img {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+main .style-photo article buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 510px) {
+    main .style-photo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    main .style-photo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+main .style-photo {
+    margin-top: 30px;
+}
+
+main .style-info-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}    

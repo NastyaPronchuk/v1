@@ -1,0 +1,130 @@
+<div class="background-text">
+            <h1>All about shoes.</h1>
+        </div>
+        <div class="background-img">
+            <img src="img/sneaker-head.jpg" alt="Sneakerhead welcome!">
+        </div>
+    </header>
+    <main>
+        <div>
+         <h1 id="about">About</h1>
+        <h3 class="first">We want to share knowledge about sneakers with you.<br> It's important part of your style - be  on trand!</h3>
+        </div>
+        <div class="page-one">
+            <div class="style-img">
+                <img src="img/style.png" alt="lightning icon">
+            </div>
+            <div class="style-one">
+                <h2><a href="#style">Style</a></h2>
+                <h3>We'll show you different ways to combine your favourite shoes with other clothes.</h3>
+            </div>
+            <div class="history-img">
+                <img src="img/history.png" alt="map icon">
+            </div> 
+            <div class="history">
+                <h2><a href="#history">History</a></h2>
+                <h3>Discover history of brands. Find out how they became sucsessful.</h3>
+            </div>   
+            <div class="shop">
+                <div class="shop-img">
+                    <img src="img/shop.png" alt="shop icon">
+                </div>
+                    <h2><a href="#shop-list">Shop</a></h2>
+                    <h3>You can buy exlusive or classical models here for a low price.</h3>
+                </div>
+        </div>
+        <br>
+        <br>
+        <div class="parttwo">
+            <h1 id="shop">SHOP</h1>
+            <h2>Choose your favourite shoes & enjoy!</h2>
+        </div>
+        <div class="products-img">
+            <div class="products-img-vans">
+                <img src="img/vans.jpg" alt="vans shoes" width="220" height="220">
+                <div class="buttons">
+                <button class="button card-button">Info</button>
+                <button class="button card-button">Buy</button>
+            </div>
+            <div class="products-img-nike">
+                <img src="img/nike.jpg" alt="nike shoes" width="420" height="320">
+                <div class="buttons">
+                <button class="button card-button">Info</button>
+                <button class="button card-button">Buy</button>
+            </div>
+            <div class="products-img-puma">
+                <img src="img/puma.jpg" alt="puma shoes" width="220" height="220">
+                <div class="buttons">
+                <button class="button card-button">Info</button>
+                <button class="button card-button">Buy</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="style">
+            <h1 id="style">Style</h1>
+            <img src="img/style-left.jpg" alt="lookbook1">
+            <img src="img/style-center.jpg" alt="lookbook2">
+            <img src="img/style-right.jpg" alt="lookbook3">
+        </div>
+        <br>
+        <br>
+        <div class="history">
+            <h1 id="history">History</h1>
+        </div>
+        <div class="historyone">
+            <img src="img/adidas-logo.png" alt="adidas logo">
+                <div class="button">
+                <button class="button-read">Read more</button>
+            </div>
+            <img src="img/puma-logo.png" alt="puma logo">
+            <div class="button">
+                <button class="button-read">Read more</button>
+            </div>
+            <img src="img/nike-logo.png" alt="nike logo">
+            <div class="button">
+                <button class="button-read">Read more</button>
+            </div>
+        </div>
+        <br>
+        <div class="historytwo">
+            <img src="img/vans-logo.png" alt="vans logo">
+            <div class="button">
+                    <button class="button-read">Read more</button>
+                </div>
+            <img src="img/puma-logo.png" alt="puma logo">
+            <div class="button">
+                    <button class="button-read">Read more</button>
+                </div>
+            <img src="img/balenciaga-logo.png" alt="balenciaga logo">
+            <div class="button">
+                    <button class="button-read">Read more</button>
+                </div>
+        </div>
+        <br>
+        <br>
+    </main>
+    <footer>
+    <div class="final">
+            <h1 id="contacts">Get in touch!</h1>
+            <h2>If you want to say something - leave a messange for us, please! With your help we'll be grow up every day!</h2>
+        <form>
+            <textarea>Let's go!:)</textarea>
+            <br>
+            <input type="submit" value="SENT">
+            <br>
+            <label>
+                Full name: <input type="text" placeholder="full name">
+            </label>
+            <br>
+            <label>
+                Email: <input type="email" name="email">
+            </label>
+        </form>
+    </div>
+    </footer>
+
+
+
+
+      background-image: url(../img/sneaker-head.jpg);
